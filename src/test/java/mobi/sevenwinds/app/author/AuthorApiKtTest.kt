@@ -1,8 +1,6 @@
 package mobi.sevenwinds.app.author
 
 import io.restassured.RestAssured
-import mobi.sevenwinds.app.budget.AuthorRecord
-import mobi.sevenwinds.app.budget.AuthorTable
 import mobi.sevenwinds.common.ServerTest
 import mobi.sevenwinds.common.jsonBody
 import mobi.sevenwinds.common.toResponse

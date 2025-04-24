@@ -1,4 +1,4 @@
-package mobi.sevenwinds.app.budget
+package mobi.sevenwinds.app.author
 
 import com.papsign.ktor.openapigen.annotations.parameters.PathParam
 import com.papsign.ktor.openapigen.annotations.type.string.length.MinLength
