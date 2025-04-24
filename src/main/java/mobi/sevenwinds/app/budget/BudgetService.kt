@@ -13,6 +13,7 @@ object BudgetService {
                 this.month = body.month
                 this.amount = body.amount
                 this.type = body.type
+                this.author = body.authorId?.let { AuthorEntity.findById(it) ?: error("Автор с id=$it не найден") }
             }
 
             return@transaction entity.toResponse()
